@@ -1,5 +1,10 @@
+/* buat di bawah ukuran 90% YG MIDDLE*/
+
+
+/* REVISI UKURAN YG DI CANVA */
+
 .homepage {
-  background-color: white;
+  background-color: rgba(229, 230, 231, 1);
   width: 100%;
   height:auto;
   position: relative;
@@ -12,8 +17,8 @@
   top: 3565px;
   left: 0;
   width: 100%;
-  height: 920px;
-  background-color: black;
+  height: 950px;
+  background-color: rgba(38, 79, 98, 1);
   z-index: 0;
 }
 
@@ -22,10 +27,9 @@
   top: 2509px;
   left: 0;
   width: 100%;
-  height: 1505px;
+  height: 1605px;
   border-radius: 188px;
-  background: black;
-  
+  background: rgba(38, 79, 98, 1);  
 }
 
 .homepage .rectangle-2 {
@@ -35,7 +39,7 @@
   width: 100%;
   height: 1000px;
   border-radius: 188px;
-  background: linear-gradient(180deg, rgba(4, 68, 197, 1) 0%, rgba(2, 33, 95, 1) 64%);
+  background: rgba(38, 79, 98, 1);
 }
 
 .homepage .rectangle-3 {
@@ -45,7 +49,7 @@
   width: 90px;
   height: 88px;
   border: 1px solid;
-  border-color: #f4ff00;
+  border-color: rgba(172, 180, 79, 1);
   transform: rotate(15.48deg);
 }
 
@@ -56,7 +60,7 @@
   width: 153px;
   height: 99px;
   border: 1px solid;
-  border-color: #f4ff00;
+  border-color: rgba(172, 180, 79, 1);
   transform: rotate(15.48deg);
 }
 
@@ -68,7 +72,7 @@
   width: 120px;
   height: 88px;
   border: 1px solid;
-  border-color: #f4ff00;
+  border-color: rgba(172, 180, 79, 1);
   transform: rotate(15.48deg);
 }
 
@@ -80,7 +84,7 @@
   width: 120px;
   height: 88px;
   border: 1px solid;
-  border-color: #f4ff00;
+  border-color: rgba(172, 180, 79, 1);
   transform: rotate(15.48deg);
 }
 
@@ -95,16 +99,24 @@
 }
 
 .homepage .text-wrapper {
-  width: 974px;
-  height: 220px;
+  width: 1500px;
+  height: auto;                          
   margin-left: -2.0px;
-  font-family: "Montserrat-Medium", Helvetica;
-  font-weight: 500;
-  color: var(--importeddefaultuntitled-6);
-  font-size: 90px;
-  text-align: center;
+  text-align: center;                     
   letter-spacing: 0;
-  line-height: 124.8px;
+  line-height: 140px;
+  color: rgba(229, 230, 231, 1);
+  margin-top: -50px;
+}
+
+.homepage .text-wrapper,
+.homepage .text-wrapper {
+  font-family: "Helvetica", sans-serif;                            
+  font-size: 93px;                
+}
+
+.homepage .text-wrapper .text-blue {
+  color: rgba(172, 180, 79, 1);                  
 }
 
 
@@ -116,7 +128,7 @@
   margin: 40px auto;
   position: relative;
   z-index: 1000;
-  background: black;
+  background: rgba(91, 120, 132, 1);
   border-radius: 100px;
   padding: 15px 80px;
   display: flex;
@@ -131,17 +143,17 @@
 }
 
 .navbar a {
-  color: white;
+  color: rgba(229, 230, 231, 1);
   text-decoration: none;
-  font-family: "Poppins-Bold", Helvetica;
-  font-weight: 700;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   font-size: 17px;
   white-space: nowrap;
 }
 
 .nav-logo img {
-  height: 35px;
-  width: 170px;
+  height: 42px;
+  width: 175px;
   margin-right: 15px;
 }
 
@@ -161,23 +173,19 @@
   position: absolute;
   left: 90px;
   top: 170px;
-
   width: 140px;
   height: 440px;
-
-  background: linear-gradient(180deg, #0a2a6b, #0444c5);
+  background: linear-gradient(180deg, rgba(229, 230, 231, 1), rgba(91, 120, 132, 1));
 }
 
 .shape-l-reverse::after {
   content: "";
   position: absolute;
   bottom: 50;
-  right: -100px;
-
+  right: -99px;
   width: 100px;
   height: 100px;
-
-  background: linear-gradient(180deg, #0a2a6b, #0d3380);
+  background: linear-gradient(105deg, rgba(229, 230, 231, 1), rgba(91, 120, 132, 1));
 }
 
 .homepage .screenshot {
@@ -213,11 +221,9 @@
   position: absolute;
   right: 70px;
   top: 200px;
-
   width: 130px;
   height: 490px;
-
-  background: linear-gradient(800deg, #0a2a6b, #0444c5);  
+  background: linear-gradient(180deg, rgba(229, 230, 231, 1), rgba(91, 120, 132, 1));  
 }
 
 /* bagian bawah */
@@ -226,11 +232,9 @@
   position: absolute;
   bottom: 0;
   left: -130px;
-
   width: 130px;
   height: 120px;
-
-  background: linear-gradient(800deg, #0a2a6b, #0b2e74);
+  background: linear-gradient(105deg, rgba(229, 230, 231, 1), rgba(91, 120, 132, 1));
 }
 
 .homepage .rectangle-6 {
@@ -239,10 +243,8 @@
   left: calc(50.00% - 104px);
   width: 208px;
   height: 68px;
-  background-color: #000000;
+  background-color: rgba(172, 180, 79, 1);
   border-radius: 100px;
-  border: 1px solid;
-  border-color: #0444c5;
 }
 
 .homepage .text-wrapper-7 {
@@ -250,9 +252,8 @@
   top: 623px;
   left: calc(50.00% - 60px);
   width: 122px;
-  font-family: "Montserrat-SemiBold", Helvetica;
-  font-weight: 600;
-  color: #ffffff;
+  font-family: "Helvetica", sans-serif;
+  color: rgba(229, 230, 231, 1);
   font-size: 24px;
   text-align: center;
   letter-spacing: 0;
@@ -292,14 +293,11 @@
   margin: auto;
   padding: 40px;
   margin-top: 800px;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-  background: black;
+  background: rgba(38, 79, 98, 1);
   border-radius: 55px;
-  border: 3px solid #0444c5;
 }
 
 .item {
@@ -309,28 +307,28 @@
 /* angka */
 .item h1 {
   font-size: 48px;
-  color: white;
+  color: rgba(229, 230, 231, 1);
   margin: 0;
   text-decoration: none;
-  font-family: "Poppins-Bold", Helvetica;
-  font-weight: 550;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 510;
   white-space: nowrap;
 }
 
 /* tanda + */
 .item span {
-  color: yellow;
-  margin-right: -3px;
+  color: rgba(172, 180, 79, 1);
+  margin-right: -4px;
 }
 
 /* label */
 .item p {
-  margin-top: 10px;
-  font-size: 18px;
-  color: #ffffff;
+  margin-top: -5px;
+  font-size: 20px;
+  color: rgba(229, 230, 231, 1);
   text-decoration: none;
-  font-family: "Poppins-Bold", inherit;
-  font-weight: 500;
+  font-family: "HelveticaforTarget-Bold", sans-serif;
+  font-weight: 530;
   white-space: nowrap;
 }
 /* END KOTAK HITAM */
@@ -350,22 +348,26 @@
 .rectangle-9 {
   width: 90%;
   max-width: 1150px;
-  padding: 40px 80px; /* tambah atas bawah */
+  padding: 40px 80px;       
   display: flex;
-  align-items: center;
-  gap: 30px; /* tambah jarak */
+  align-items: center;     
+  justify-content: space-between; 
+  gap: 45px; 
   border-radius: 25px;
-  background: linear-gradient(180deg, rgba(4, 68, 197, 1) 0%, rgba(0, 0, 0, 1) 100%)}
-
-
-.left {
-  flex: 1;
+  background: rgba(38, 79, 98, 1);
 }
 
-.text-wrapper-20 {
-  font-family: "Montserrat-SemiBold", sans-serif;
-  font-weight: 500;
-  color: #f4ff00;
+.left {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+  flex-shrink: 0;          
+}
+
+.text-wrapper-2o {
+  font-family: "HelveticaforTarget", sans-serif;
+  color: rgba(229, 230, 231, 1);
   font-size: 75px;
   line-height: 1.2;
   text-align: left;
@@ -373,50 +375,57 @@
   white-space: nowrap;
 }
 
+.text-wrapper-2 {
+  font-family: "HelveticaforTarget", sans-serif;
+  color: rgba(172, 180, 79, 1);
+  font-size: 75px;
+  line-height: 1.2;
+  text-align: left;
+  letter-spacing: 0;
+  white-space: nowrap;
+  margin-right: -10px;
+}
 
 .divider {
   width: 2px;
-  height: 400px; 
-  background: white;
-  margin: 0 20px;
-
-  align-self: flex-start;   /* ini kuncinya */
-  margin-top: -15px;    
+  height: 340px;            
+  background: rgba(229, 230, 231, 1);
+  flex-shrink: 0;
+  align-self: flex-start;   
+  margin-top: 1px;         
 }
 
-
 .right {
-  flex: 2;
+  flex: 1;                  
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.text-wrapper-21,
-.text-wrapper-22 {
+.text-wrapper-2k,
+.text-wrapper-2k {
   width: 86px;
   margin-top: 50px;
-  font-family: "Montserrat-Medium", Helvetica;
+  font-family: "HelveticaforTarget", sans-serif;
   font-weight: 500;
-  color: #f4ff00;
+  color: rgba(172, 180, 79, 1);
   letter-spacing: 0;
   line-height: 23px;
   white-space: nowrap;
   margin-left: -3px; 
-
   font-size: 26px;
   text-align: left; 
   margin: 0;
 }
 
-.p,
-.text-wrapper-23 {
-  font-family: "Montserrat-Light", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: rgba(199, 199, 199, 0.904);
-  font-size: 16px;
+.p, .text-wrapper-23 {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 0;
+  color: rgba(229, 230, 231, 1);
+  font-size: 17px;
   text-align: justify;
   letter-spacing: 0;
-  line-height: 25px;
+  line-height: 23px;
   width: 425px;
   margin-top: -10px;
   }
@@ -433,10 +442,8 @@
   max-width: 800px;
   margin: 330px auto 40px;
   text-align: center;
-
-  font-family: "Montserrat-Bold", Helvetica;
-  font-weight: 700;
-  color: #f4ff00;
+  font-family: "HelveticaforTarget", sans-serif;
+  color: rgba(229, 230, 231, 1);
   font-size: 80px;
   letter-spacing: 7.00px;
   line-height: 84px;
@@ -550,9 +557,8 @@
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
-  font-family: "Inter-SemiBold", Helvetica;
-  font-weight: 600;
-  color: var(--importeddefaultuntitled-6);
+  font-family: "HelveticaforTarget", sans-serif;
+  color: red;
   font-size: 18px;
   letter-spacing: 0;
   line-height: 28px;
@@ -564,7 +570,7 @@
   margin-right: -0.50px;
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
-  color: var(--importeddefaultuntitled-0);
+  color: red;
   font-size: 16px;
   letter-spacing: 0;
   line-height: 24px;
@@ -600,7 +606,7 @@
   align-self: stretch;
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
-  color: var(--importeddefaultuntitled-0);
+  color: red;
   font-size: 16px;
   letter-spacing: 0;
   line-height: 24px;
@@ -625,7 +631,7 @@
   gap: 16px;
   padding: 24px;
   border-radius: 12px;
-  background: linear-gradient(180deg, rgba(4, 68, 197, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background: rgba(38, 79, 98, 1);
 }
 
 .card {
@@ -640,10 +646,9 @@
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
-  font-family: "Inter-SemiBold", Helvetica;
-  font-weight: 600;
-  color: var(--importeddefaultuntitled-6);
-  font-size: 18px;
+ font-family: "HelveticaforTarget", sans-serif;
+  color: #acb44f;
+  font-size: 20px;
   letter-spacing: 0;
   line-height: 28px;
   margin-left: 60px; 
@@ -653,12 +658,12 @@
 .homepage .t-feature-0{
   position: relative;
   align-self: stretch;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: var(--importeddefaultuntitled-0);
+  font-family: "Helvetica", sans-serif;
+  font-weight: 0;
+  color: rgba(229, 230, 231, 1);
   font-size: 16px;
   letter-spacing: 0;
-  line-height: 24px;
+  line-height: 20px;
   top: 6px;
 }
 
@@ -673,7 +678,7 @@
   width: 44px;
   height: 44px;
   border-radius: 12px;
-  border: 1px solid #000;
+  border: 1px solid rgba(91, 120, 132, 1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -726,17 +731,15 @@
   text-align: center;
   font-size: 80px;
   white-space: normal;
-  background: linear-gradient(90deg, rgba(4, 68, 197, 1) 0%, rgba(2, 33, 95, 1) 79%);
+  background: rgba(172, 180, 79, 1);
   -webkit-background-clip: text !important;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Montserrat-Bold", Helvetica;
-  font-weight: 700;
+  font-family: "HelveticaforTarget", sans-serif;
   color: transparent;
   letter-spacing: 7.00px;
   line-height: 84px;
 }
-
 
 
 
@@ -851,24 +854,25 @@
   max-width: 1200px;
   position: relative;
   z-index: 10;
-  right: 110px;
+  right: 100px;
   display: flex;
   align-items: center;
-  margin: 350px auto;
+  margin: 300px auto;
   padding: 300px auto;   
 }
 
 .cta-left h1 {
-  font-family: "Montserrat-Bold", Helvetica;
-  font-weight: 500;
-  color: #f4ff00;
+  font-family: "HelveticaforTarget", sans-serif;
+  color: rgba(172, 180, 79, 1);
   font-size: 100px;
-  letter-spacing: 6.00px;
-  line-height: 94px;
+  letter-spacing: 2.00px;
+  line-height: 90px;
+  margin-left: 30px;
 }
 
 .cta-right {
   position: relative;
+  margin-right: 30px;
 }
 
 .img-main {
@@ -888,7 +892,7 @@
 
 .box-outline-2 {
   position: absolute;
-  background-color: black;
+  background-color: rgba(38, 79, 98, 1);
   top: 140px;
   right: -70px;
   width: 200px;
@@ -898,23 +902,23 @@
 
 .box-outline {
   position: absolute;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(38, 79, 98, 1);
   top: -30px;
   right: -190px;
   width: 330px;
   height: 200px;
-  border: 7px solid rgb(255, 255, 255);
+  border: 7px solid rgba(229, 230, 231, 1);
   z-index: -1;
 }
 
 .box-outline-3 {
   position: absolute;
-  background-color: black;
+  background-color: rgba(38, 79, 98, 1);
   top: 235px;
   right: 50px;
   width: 300px;
   height: 100px;
-  border: 7px solid white;
+  border: 7px solid rgba(229, 230, 231, 1);
   z-index: -1;
 }
 /* END HALM DI ATAS FOOTER */
@@ -930,7 +934,7 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin-top: -170px;
+  margin-top: -90px;
   z-index: 10;
   position: relative;
 }
@@ -941,11 +945,11 @@
 }
 
 .line.left {
-  background: white;
+  background: rgba(229, 230, 231, 1);
 }
 
 .line.right {
-  background: white;
+  background: rgba(229, 230, 231, 1);
 }
 
 .star {
@@ -960,7 +964,7 @@
 
 /* FOOTER */
 .footer {
-  background: black;
+  background-image: linear-gradient(180deg, rgba(38, 79, 98, 1) 60%, rgba(91, 120, 132, 1));
   color: white;
   padding: 50px 160px;
   z-index: 999;
@@ -979,8 +983,9 @@
 }
 
 .footer-left .logo {
-  width: 160px;
-  margin-bottom: 20px;
+  width: 165px;
+  margin-bottom: 10px;
+  margin-left: -9px;
 }
 
 .footer-nav,

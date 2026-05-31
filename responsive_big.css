@@ -1,9 +1,11 @@
 /* buat di bawah ukuran 50% */
 
 
+/* REVISI SEMUAAA */
+
 @media (min-width: 2100px) {
     .homepage {
-        background-color: white;
+        background-color: rgb(72, 225, 45);
     }
 
     .homepage .div {
