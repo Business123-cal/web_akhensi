@@ -247,9 +247,9 @@
     /* KOTAK HITAM */
     .rectangle-7 {
         width: 90%;
-        max-width: 2200px;
+        max-width: 3300px;
         margin: auto;
-        padding: 70px;
+        padding: 50px;
         margin-top: 1080px;
         display: flex;
         justify-content: space-around;
@@ -311,7 +311,7 @@
         top: -120px;
         left: 0;
         width: 100%;
-        height: 1400px;
+        height: 1450px;
         object-fit: cover;
         z-index: -1;
     }
